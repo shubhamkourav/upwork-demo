@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .active {
+        @apply text-[#14a800]
+    }
+    .up-is-open {
+        @apply border-b-2 border-[#9aaa97]
+    }
+    .list {
+        @apply grid md:m-0 ml-[16px] mb-[16px] text-sm list-none
+    }
+    .list-item {
+        @apply cursor-pointer md:hover:underline mb-[16px]
+    }
+    .footer-icon {
+        @apply flex items-center justify-center rounded-full h-[40px] w-[40px] border-2 border-white
+    }
+}
